@@ -1,0 +1,103 @@
+body{
+max-width: 1020px;
+background-color: blue;
+}
+.center {
+    text-align:center;
+    width:100%;
+}
+.center:first-child { 
+    margin:auto;
+    text-align:left;
+}
+/*Header*/
+header{
+    position:relative;
+    background-color: yellow;
+    height: 15%;
+}
+header h1{
+    color: red;
+    margin-bottom: -2%;
+}
+header h2{
+    position: relative;
+    left: -39%;
+    background-color: tan;
+    max-width: 22%;
+    margin-bottom: -12%;
+}
+.mi{
+    position: relative;
+    height: 25%;
+    width: 55%;
+    margin: -4%;
+    left: 29%;
+    top: 5em;
+}
+header img{
+    width: 31%;
+    height: 25%;
+}
+header ul{
+    position: relative;
+    left: -38%;
+}
+header li{
+    color:red;
+
+}
+a{
+    text-decoration: none;
+}
+/*End_of_Header*/
+/*Main*/
+main{
+    background-color: rgb(24, 81, 2);
+    position: relative;
+    margin-top: -2%; 
+}
+.Summary{
+    position: relative;
+    left: 9%;
+}
+.Summary h3{
+    margin-top: 2%;
+    padding-top: 3%;
+}
+.Summary p{
+    position: relative;
+    width: 80%;
+}
+.Education p{
+    position: relative;
+    width: 51%;
+    left: -25%;
+    margin-top: -1%;
+}
+.Skills h3{
+    position: relative;
+    left: -19%;
+}
+.Skills li{
+    width:12%;
+    position:relative;
+    left:-44%;
+
+}
+/* End_of_Main*/
+footer{
+    position: relative;
+    height: 10%;
+    background-color: black;
+    top: -1.2em;
+    color: white;
+}
+footer li{
+    margin: 0% 123%;
+}
+footer ul{
+    position: relative;
+    left:-1%;
+    display: inline-flex;
+}
